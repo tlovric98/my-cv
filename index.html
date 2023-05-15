@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Resume Antonio Lovrić</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Resume Antonio Lovrić</h1>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#employment">Employment</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#courses">Courses</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <section id="personal-details">
+      <h2>Personal Details</h2>
+      <ul>
+        <li><strong>Given name:</strong> Antonio</li>
+        <li><strong>Family name:</strong> Lovrić</li>
+        <li><strong>Email address:</strong> lovrictoni6@gmail.com</li>
+        <li><strong>Phone number:</strong> (385)989157800</li>
+        <li><strong>Address:</strong> Lovinčićeva 3D</li>
+        <li><strong>Post code:</strong> 10000</li>
+        <li><strong>City:</strong> Zagreb</li>
+        <li><strong>Date of birth:</strong> 19.08.1998.</li>
+        <li><strong>Gender:</strong> Male</li>
+        <li><strong>Nationality:</strong> Croat</li>
+        <li><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/antonio-lovri%C4%87-50bba8258">Linkedin Profile</a></li>
+      </ul>
+    </section>
+
+    <section id="profile">
+      <h2>Profile</h2>
+      <p>A motivated and ambitious person eager to kickstart a career in Web Development. Possessing a solid foundation in HTML/CSS and Javascript, I am committed to continuous learning and growth. With a strong drive to succeed, I am enthusiastic about taking on new challenges and making a meaningful impact. </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Master of German Language and Literature</strong> - J.J. Strossmayer University, Osijek, 10/2017 - 09/2022</li>
+        <li><strong>System and Network Administrator</strong> - Algebra, Zagreb, 09/2022 - 01/2023</li>
+      </ul>
+    </section>
+
+    <section id="employment">
+      <h2>Employment</h2>
+      <ul>
+        <li><strong>Customer Support Specialist (German language)</strong> - Heloo, Osijek, 10/2021 - 11/2021</li>
+        <li><strong>IT Helpdesk/Junior Network Engineer</strong> - Strabag IT, Zagreb, 03/2023 - present</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Problem-solving</li>
+        <li>Communiction</li>
+        <li>Teamwork</li>
+        <li>Adaptability</li>
+        <li>Ambition</li>  
+      </ul>
+    </section>
+
+    <section id="languages">
+      <h2>Languages</h2>
+      <ul>
+        <li>Croatian - Fluent</li>
+        <li>German - Fluent</li>
+        <li>English - Very good</li>
+      </ul>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Website Design (Wordpress/Wix)</li>
+        <li>Going out with girlfriend/friends</li>
+        <li>Watching a lot of Youtube (mostly IT oriented)</li>
+        <li>Watching footbal</li>
+        <li>Riding a bike/traveling</li>
+      </ul>
+
+      <section id="courses">
+        <h2>Courses</h2>
+        <ul>
+          <li>
+            <a href="https://www.udemy.com/?ranMID=39197&ranEAID=3NhzUrXi*8A&ranSiteID=3NhzUrXi.8A-8u0OdmuhdrDLiXpJA.aB2g&LSNPUBID=3NhzUrXi*8A&utm_source=aff-campaign&utm_medium=udemyads">Udemy</a>: Web Development Camp - HTML/CSS/Javascript/React
+          </li>
+          <p>04/2023 - present</p>
+        </ul>
+      </section>
+      
+      <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+  
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
+      </script>
+    </body>
+  </html>
